@@ -1,4 +1,4 @@
-# MuJoCo Playground Docker Container for Aaltoes Robotics 2025
+# Robot Learning Playground Environment for Aaltoes Robotics 2025
 
 Robot learning playground environment based on [MuJoCo Playground](https://github.com/google-deepmind/mujoco_playground). Support for Isaac Sim -based [Robot Lab](https://github.com/fan-ziqi/robot_lab) is planned for the future.
 

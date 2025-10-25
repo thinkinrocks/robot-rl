@@ -26,7 +26,7 @@ Create a new startup script with the following content: [startup.sh](scripts/sta
 ssh -L 8888:localhost:8888 root@INSTANCE_IP
 ```
 
-You will get an interactive shell to the instance, but you do not have to do anything there. You can, however, check if the container is running by running `sudo docker ps`. Data Crunch has docs on managing SSH keys [here](https://docs.datacrunch.io/cpu-and-gpu-instances/creating-an-ssh-key).
+You will get an interactive shell to the instance, but you do not have to do anything there. You can, however, check if the container is running by running `sudo docker ps`. Data Crunch has docs on managing SSH keys [here](https://docs.datacrunch.io/cpu-and-gpu-instances/creating-an-ssh-key). They also have docs on jupyter notebook access with VS Code via ssh port forwarding [here](https://docs.datacrunch.io/cpu-and-gpu-instances/connecting-to-jupyter-notebook-with-vs-code).
 
 ### 4. Open http://localhost:8888 in your browser
 

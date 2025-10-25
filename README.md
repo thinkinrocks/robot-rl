@@ -16,7 +16,7 @@ Use an OS image provided by Data Crunch which has Ubuntu and Docker installed. *
 
 ### 2. Configure a [Startup Script](scripts/startup.sh) during instance creation
 
-This script will install the necessary dependencies and start the container. You can also use the [Run Docker](scripts/run-docker.sh) script to start the container manually. But be sure to have the NVIDIA Container Toolkit installed as shown in the [Install NVIDIA Container Toolkit](scripts/install-nvidia-ctk.sh) script.
+Create a new startup script with the following content: [startup.sh](scripts/startup.sh). This script will install the necessary dependencies and start the container. You can also use the [Run Docker](scripts/run-docker.sh) script to start the container manually. But be sure to have the NVIDIA Container Toolkit installed as shown in the [Install NVIDIA Container Toolkit](scripts/install-nvidia-ctk.sh) script.
 
 ![Configure Startup Script](media/add-startup.png)
 
